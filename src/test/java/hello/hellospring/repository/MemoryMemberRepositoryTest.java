@@ -19,7 +19,7 @@ class MemoryMemberRepositoryTest {
     // 테스트는 서로 의존관계가 없이 설계가 되어야 한다.
     // 그러기 위해선 하나의 테스트가 끝날때 마다 저장소나 공용 데이터를 깔끔하게 지워줘야한다.
     @AfterEach
-    public void aterEach() {
+    public void atferEach() {
         repository.clearStore();
     }
 
