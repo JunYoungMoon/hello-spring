@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
+//@Service
 public class MemberService {
     //서비스의 메서드 네이밍은 좀더 비즈니스에 가깝다.
 
